@@ -1,0 +1,14 @@
+@use 'config/reset.scss';
+@use 'config/variaveis.scss';
+@use 'modulos/header.scss';
+@use 'modulos/products.scss';
+
+
+
+body{
+    background-color: variaveis.$corPrincipal;
+
+    li{
+        list-style: none;
+    }
+}
